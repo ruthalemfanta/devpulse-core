@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+// This component serves as the main interface for the DevPulse Blog Workspace, allowing users to create and view blog posts. It interacts with a mock backend server to fetch and submit data, demonstrating a simple CRUD application structure. The design is kept minimalistic to focus on functionality and ease of use, with clear sections for creating new posts and viewing existing ones.
+
 function App() {
     const [posts, setPosts] = useState([]);
     const [title, setTitle] = useState('');
